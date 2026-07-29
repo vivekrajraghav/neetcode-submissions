@@ -1,4 +1,4 @@
 -- Write your query below
-SELECT name
+Select customer_id
 FROM customers
-WHERE id NOT IN (SELECT customer_id FROM orders);
+WHERE revenue>0 AND year=2020;
